@@ -1,0 +1,19 @@
+table, td, tr {
+    border-collapse: separate;
+    border: solid 1px black;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.dia {
+    font-weight: bold;
+}
+
+div {
+
+    padding-left: 17em;
+}

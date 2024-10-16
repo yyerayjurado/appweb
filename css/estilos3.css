@@ -1,0 +1,18 @@
+body {
+    background-color: #3b833b;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    color: white;
+}
+
+td {
+    color: white;
+    background-color: gray;
+}

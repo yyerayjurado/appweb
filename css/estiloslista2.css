@@ -1,0 +1,8 @@
+ol {
+    list-style: upper-roman;
+}
+
+* {
+    background-color: black;
+    color: white;
+}

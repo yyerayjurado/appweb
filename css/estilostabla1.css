@@ -1,0 +1,20 @@
+table, tr, td {
+    border-collapse: separate;
+    border: solid 1px #0000ff;
+    text-align: center;
+    color: #0000ff;
+}
+
+.amarillo {
+    background-color: #ffff00;
+}
+
+.rojo {
+    background-color: #ff0000;
+    padding: 2em;
+}
+
+td {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}

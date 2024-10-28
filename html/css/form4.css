@@ -1,0 +1,36 @@
+fieldset{
+    display: inline-block;
+    width: 80em;
+}
+
+.caja1 {
+    margin: 0 auto;
+}
+
+.caja2 {
+    width: 29em;
+}
+
+.caja3 {
+    width: 20em;
+}
+
+.dproducto {
+    width: 23em;
+}
+
+.interes {
+    width: 50em;
+}
+
+.envio {
+    width: 28em;
+}
+
+.bancarios {
+    width: 27em;
+}
+
+.boton {
+    text-align: center;
+}

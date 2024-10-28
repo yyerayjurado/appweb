@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form4.css">
+</head>
+<body>
+    <h1>MRW</h1>
+
+    <fieldset class="caja1">
+        <legend>FORMULARIO DE PEDIDO</legend>
+        <H3>>Paso 1. Identificacion</H3>
+
+        <fieldset class="caja2">
+            <legend>Datos del Cliente</legend>
+            <form action="#">
+                <div>
+                   <label for="email">Correo Electronico</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+            </div>
+            </form>
+        </fieldset>
+
+        <fieldset class="caja3">
+            <legend>Tipo de Cliente</legend>
+            <label for="Tipo"></label>
+            <input type="radio" name="tipo" id="tipo">
+            <opt value="1">Particular</opt>
+            <input type="radio" name="tipo" id="tipo">
+            <opt value="2">Asociacion</opt>
+            <input type="radio" name="tipo" id="tipo">
+            <opt value="3">Empresa</opt>
+        </fieldset>
+
+
+        <h3>> Paso 2. Pedido</h3>
+
+        <fieldset class="dproducto">
+            <legend>Datos del Producto</legend>
+            <label for="Producto">Producto</label>
+            <form action="#">
+                <select name="producto" id="producto">
+                    <optgroup label="Armaduras">
+                        <option value="1">AR001 Oro Reluciente</option>
+                        <option value="2">AR002 Plata Pulida</option>
+                        <option value="3">AR003 Bronce Reforzado</option>
+                    </optgroup>
+                    <optgroup label="Extras">
+                        <option value="1">EX001 Escudo</option>
+                        <option value="2">EX002 Invisibilidad</option>
+                </select>
+            </form>
+        </fieldset>
+
+
+        <fieldset class="interes">
+            <legend>Informacion de Interes</legend>
+            <form action="#">
+                <label for="comen">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" placeholder="Escriba aqui sus comentarios"></textarea>
+                <div>
+                <input type="checkbox" name="publi" id="publi">
+                <label for="publi">Acepto recibir informacion publicitaria</label>
+            </div>
+            </form>
+        </fieldset>
+
+
+        <fieldset class="envio">
+            <legend>Datos de Envio</legend>
+            <fieldset>
+        <div>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="direccion">
+        </div>
+                <div>
+            <label for="direccion">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad">
+        </div>
+    <div>
+            <label for="direccion">Postal</label>
+            <input type="text" name="postal" id="postal">
+        </div>
+        </fieldset>
+
+
+        <fieldset class="bancarios">
+            <legend>Datos Bancarios</legend>
+        <div>
+            <label for="nombre">Nombre Entiendad</label>
+            <input type="text" name="entidad" id="entidad">
+        </div>
+    <div>
+            <label for="numero">Nº de Cuenta</label>
+            <input type="number" name="cuenta" id="cuenta">
+        </div>
+        </fieldset>
+
+        <div class="boton">
+        <button>Enviar Pedido</button>
+        <button>Resetear</button>
+    </div>
+    </fieldset>
+</body>
+</html>

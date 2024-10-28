@@ -1,0 +1,12 @@
+h1 {
+    font-size: small;
+}
+.caja {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+button {
+    background-color: grey;
+    color: white;
+}

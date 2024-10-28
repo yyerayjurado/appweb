@@ -1,0 +1,25 @@
+.titulo {
+    text-align: center;
+    background-color: gray;
+    color: blueviolet;
+    margin-bottom: 10em;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 0.1em solid;
+    text-align: center;
+}
+
+img {
+    width: 10em;
+}
+
+.galeria {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+figure {
+    text-align: center;
+}

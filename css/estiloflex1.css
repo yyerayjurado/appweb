@@ -1,0 +1,36 @@
+section {
+    display: flex;
+}
+
+section p:first-of-type {
+    background-color: #ffe4c4;
+}
+section p:nth-child(2) {
+    background-color: #daffc4;
+}
+section p:nth-child(3) {
+    background-color: #ffc4c4;
+}
+section p:nth-child(4) {
+    background-color: rgb(255, 0, 0);
+}
+section p:nth-child(5) {
+    background-color: rgb(196, 255, 250);
+}
+section p:nth-child(6) {
+    background-color: #e0c4ff;
+}
+
+section#reverse {
+    flex-direction: row-reverse;
+}
+section#colum {
+    flex-direction: column;
+}
+section#columreverse {
+    flex-direction: column-reverse;
+}
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}

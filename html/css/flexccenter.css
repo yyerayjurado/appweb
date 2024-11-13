@@ -1,0 +1,10 @@
+img{
+    justify-content: center;
+    width: 16em;
+}
+h1 {
+    text-align: center;
+}
+section {
+    display: flex;
+}

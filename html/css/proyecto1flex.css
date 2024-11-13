@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CABECERA */
+header {
+    text-align: center;
+}
+
+/*BARRA DE NAVEGACION*/
+ul, li {
+    margin-left: 37px;
+    width: 8em;
+    list-style: none;
+}
+
+
+/* IMAGENES*/
+section {
+    display: flex;
+}
+
+.imagenes1 {
+    width: 16em;  
+    display: flex; 
+    border: 1px solid black ;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+img {
+    width: 9em;
+    border-radius: 20px;
+}

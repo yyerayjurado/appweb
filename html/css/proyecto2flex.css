@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+section:nth-child(1) {
+    background-color: aqua;
+}
+section:nth-child(2) {
+    background-color: aqua;
+}
+section:nth-child(3) {
+    background-color: aqua;
+}
+img {
+    width: 3em;
+}
+footer {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+.centrar {
+    margin-left: 50em;
+}

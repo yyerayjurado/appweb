@@ -42,7 +42,7 @@ main, .imagenes, .solotexto {
     display: flex;
     align-items: center;  
     flex-wrap: wrap;
-    align-items: flex-start;    
+    align-items: flex-start;
     flex-direction: row;
 }
 div {

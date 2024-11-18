@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: red;
+    color: purple;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: end;
+}
+
+section:nth-child(1) {
+    padding: 1em;
+    text-align: center;
+    
+    background-color: purple;
+    justify-content: center;
+}
+
+section:nth-child(2) {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(220, 245, 0);
+    justify-content: center;
+}
+
+section:nth-child(3) {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(0, 128, 96);
+    justify-content: center;
+}
+
+
+.pequeño {
+    width: 10em;
+}
+.mediano {
+    width: 20em;
+}
+.grande {
+    width: 30em;
+}
+section {
+    display: ;
+}

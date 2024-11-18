@@ -36,8 +36,8 @@ p {
 
 footer {
     background-color: grey;
-    vertical-align: center;
 }
+
 main, .imagenes, .solotexto {
     display: flex;
     align-items: center;  
@@ -45,6 +45,7 @@ main, .imagenes, .solotexto {
     align-items: flex-start;
     flex-direction: row;
 }
+
 div {
     border: 0.1em solid black;
     border-radius: 1em;

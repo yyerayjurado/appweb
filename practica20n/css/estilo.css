@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00ffff;
+}
+
+.imagen1 {
+    width: 50px;
+}
+
+.navbar, p {
+    display: flex;
+    justify-content: space-between;
+    background-color: #add8e6;
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+p:hover {
+    background-color: #f5f5dc;
+}
+
+aside {
+    background-color: #00ffff;
+    width: 300px;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    width: 16em;
+}
+
+main {
+    background-color: #f5f5dc;
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    width: 20em;
+    background-color: #00c3ff;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 8em;
+    width: 16em;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+table { 
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container2 {
+    width: 16em;
+    background-color: #00ffff;
+    margin-left: 10em;
+}
+
+ul, li, ol {
+    width: 16em;
+    background-color: #525252;
+    margin-left: 20px;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16em;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer {
+    background-color: #525252;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #000000;
+}
+
+.redes {
+    width: 5em;
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    background-color: #ff0000;
+    padding: 1em;
+    text-align: center;
+    width: 40em;
+}
+
+.crece {
+    flex-grow: 1;
+}
+
+.decrece {
+    flex-shrink: 1;
+}
+
+@media (max-width: 768px) {
+    .contenedor-flex {
+        flex-direction: column; 
+    }
+
+    .elemento {
+        width: 6em;
+    }
+
+    .crece {
+        flex-grow: 1;
+    }
+
+    .decrece {
+        flex-shrink: 1;
+    }
+}
